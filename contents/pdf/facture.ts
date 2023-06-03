@@ -174,7 +174,7 @@ export const facturePdf: PdfTemplate<FactureProps> = (p) => ({
     },
     {
       columns: [[
-        ...(p.paid ? [{ text: 'Facture payée', bold: true, decoration: 'underline', marginBottom: 5 } as any] : []),
+        ...(p.paid ? [{ text: 'Facture acquitée', bold: true, decoration: 'underline', marginBottom: 5 } as any] : []),
         ...(p.transactionType !== null ? [`Moyen de paiement : ${TransactionTypeNames[p.transactionType]}`] : []),
       ]],
       margin: [0, 25, 0, 0]
