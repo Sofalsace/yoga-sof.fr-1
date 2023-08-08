@@ -19,7 +19,7 @@ export const coursesExplicit: Record<CourseType, CourseDataExplicit> = {
   },
   [CourseType.YOGA_CHILD]: {
     anchor: 'enfant',
-    age: `6 à 10 ans`,
+    age: `6 à 12 ans`,
     level: `Initiation`,
     group: `6-8 enfants`,
     duration: `1h`,
